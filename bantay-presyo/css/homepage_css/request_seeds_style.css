@@ -1,0 +1,20 @@
+.input-field{
+        width: 90%;
+    }
+ 
+.seeds-header  {
+    margin-top: 50px;
+}
+
+.house-street, .city-province, .seed-details, .farmer-details{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.seeds, .farmers{
+    display: block;
+    border-radius: 2px;
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 10px;
+}

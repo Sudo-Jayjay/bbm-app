@@ -1,0 +1,458 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Give+You+Glory);
+ 
+body {
+    /*background: rgba(252, 251, 249, 0.68);*/
+    background-color: #EDF2F4;
+    font-size: 16px;
+    color: #4d4f56;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+/* @media (min-width: 810px){
+    body {
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto; 
+        overflow-x: hidden;
+        place-content: center;
+        place-self: center;
+        position: relative;
+    }
+
+    .bottom-nav{    
+        text-align: center;
+        max-width: 36%;
+         
+    }
+
+  } */
+
+
+/* ==========================
+*   Typography
+============================*/
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #25282b;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #086cca;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #404048;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #eaebeb;
+}
+
+
+/*==================================
+* Bootstrap grid tweaks
+*===================================*/
+
+.container {
+    max-width: 1270px;
+    width: 94%;
+}
+
+
+/* Remove space from columns */
+
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row.no-gutter [class*="col-"]:not(:first-child),
+.row.no-gutter [class*="col-"]:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/*==================================
+* Just simple warppers
+*===================================*/
+
+.page-wrapper {
+    /* padding-top: 36px; */
+    padding-bottom: 100px; 
+}
+
+.inner-page {
+    margin-top: 30px;
+    margin-bottom: 50px
+}
+ 
+/* ==========================
+*   Buttons
+============================*/
+
+.form-control-lg,
+.dropdown-menu,
+.btn,
+.btn-group-lg>.btn,
+.btn-lg,
+.img-rounded {
+    border-radius: 2px
+}
+
+.btn {
+    transition: all .4s;
+}
+
+.btn-secondary {
+    color: #373a3c;
+    background-color: rgba(252, 251, 249, 0.68);
+    border-color: #eaebeb;
+}
+
+.theme-btn {
+    background-color: #097ae3;
+    border-color: #097ae3;
+    color: #fff
+}
+
+.theme-btn-dash {
+    border: 2px dashed #097ae3;
+    background-color: transparent;
+    color: #097ae3;
+}
+
+.theme-btn-dash:hover,
+.theme-btn,
+.theme-btn.btn-lg:hover,
+.btn-secondary:hover {
+    background-color: #097ae3;
+    color: #fff;
+    border: 1px solid #097ae3;
+}
+
+.theme-btn-dash:hover {
+    border: 2px solid #097ae3;
+    color: #fff
+}
+
+.bg-white {
+    background-color: #fff
+}
+
+.primary-color {
+    color: #097ae3;
+}
+
+
+
+
+
+
+/* ==========================
+*   index
+============================*/
+
+    .searchbar{
+        width: 90%;
+    }
+    .fa-search{
+        color:black;
+    }   
+
+    .container-box{ 
+        margin-top: 15px; 
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.5px solid black;
+        /*border: none;*/
+        border-radius: 10px;
+        /*border-color: #80471C;*/
+        /*background-color: #80471C;
+        opacity: 0.6;*/
+    }
+
+    .container-box-middle.info-board{
+        margin-top: 15px; 
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.5px solid black;
+        border-radius: 10px;
+        height:150px;
+    }
+
+    .row{ 
+        /*width: 100%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding:20px;
+        overflow: hidden;*/
+        width: 100%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        margin-bottom: -15px;
+        margin-top: 0px;
+    }
+
+    .row-product{
+        width: 100%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .row-title{
+        padding-left: 20px;
+        padding-top: 23px;
+        padding-bottom: 8px;
+        background: #91c9fa;
+        border-top-left-radius: 20px 20px;
+        border-top-right-radius: 20px 20px;
+    }
+
+    .row-title-btn{ 
+        background: #0275d8;
+        border-top-left-radius: 20px 20px;
+        border-top-right-radius: 20px 20px;
+    }
+
+    .card-01{
+        background-color: #d9d9d9;
+        position: relative;
+        flex: 1;
+        height: 60px;
+        margin: 5px;
+        border-radius: 5px;
+        align-content: center;
+        max-width: 25%;
+        flex: 100%;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .card-02{
+        /* background-color: #ddd; */
+        position: relative;
+        flex-wrap: wrap;
+        flex: 1;
+        height: 60px;
+        margin: 5px;
+        border-radius: 5px;
+        align-content: center;
+    }
+
+    .card-price{
+        /* background-color: #ddd; */
+        position: relative;
+        flex-wrap: wrap;
+        flex: 1;
+        height: 80px; 
+        border-radius: 5px; 
+    }
+ 
+    @media(max-width:800px) { 
+        .card-01{   
+            max-width: 25%;
+            flex: 100%;
+            height: auto;
+            padding: 10px;
+            text-align: center;
+            overflow: hidden; 
+        }
+        .card-02{  
+            max-width: 100%;
+            flex:100%;
+            margin: 5px;
+            padding: 10px;
+            height:150px; 
+            /* border-bottom: .5px solid black; */
+
+        }
+    } 
+
+    .pix{ 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    
+       
+
+
+/* ==========================
+*   Header and bottom navbar
+============================*/
+    .mybtn1{
+        border-top-left-radius: 20px 20px; 
+        width:25%;
+    }
+    .mybtn2{
+        border-top-right-radius: 20px 20px; 
+        width:25%;
+    }
+    .mybtn{ 
+        width:25%; 
+        float:left;
+    }
+    .yellow{
+        background-color: #fcf499;
+        /* border: 0.5px solid black; */
+    }
+    .green{
+        background-color: #96de9d;
+        /* border: 0.5px solid black;  */
+    }
+    .red{
+        background-color:#ff8c8c;
+        /* border: 0.5px solid black; */
+    }
+    .right-price{
+        width: 50%;
+        float: right;
+    }
+
+    .type{
+        text-align: right;
+        padding-right: 7px;
+        font-size: 12px;
+    }
+
+    .price-bar{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .barr{
+        margin: 0px;
+        padding: 0px;
+        display: contents;
+    }
+    .pphoto{
+        text-align:center;
+    } 
+
+
+    .bottom-nav {  
+        overflow: hidden; 
+        position: fixed;
+        bottom: 0; 
+        margin: 20px;
+        width: -webkit-fill-available; 
+        z-index: 1;
+      }
+
+      
+    .navbare{  
+        width: 70%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        background-color: #333;
+        border-radius: 15px;
+        overflow: hidden; 
+      }
+
+      
+    .navbare a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; 
+    }
+      
+    .navbare a:hover {
+        background: #f1f1f1;
+        color: black;
+    }
+      
+    .navbare a.active {
+        background: #f1f1f1;
+        color: black;
+    }
+
+      .col-xs-3 {
+        float: left;
+        width: 25%;
+        padding: 0px;
+        margin: 0px;
+      }
+    
+      .center{
+        display: grid;
+      }
+     
+      .header-width{
+        width: 100%; 
+      }
+    
+      .navbar{
+        /* background-color: #333; */
+        background-color: #fcfcfa;
+      }
+    
+      .head-ic-1{ 
+        padding: 0px;
+        width: 50%;
+      }
+      .head-ic-2{
+        text-align: right;
+        padding: 0px;
+        width: 50%;
+      }
+    
+      .fa-comment-dots{
+        /* color: #f2f2f2; */
+        color: black;
+    
+      }
+    
+      .fa-user{
+        /* color:#f2f2f2 ; */
+        color: black;
+      }
+
+
+
+      
+.homebtns{
+    font-size: 10px;
+}
