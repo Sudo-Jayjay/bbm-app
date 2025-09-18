@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif,Montserrat;
+}
+html, body{
+     display: flex;
+    height: 100%;
+    width: 100%;
+    background: #1c162e;
+}
+
+::selection{
+    color: #fff;
+    background: #007bff;
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+    border-radius: 25px;
+    opacity: 0;
+}
+::-webkit-scrollbar-track{
+    background: #5aff0000;
+    opacity: 0;
+}
+::-webkit-scrollbar-thumb{
+    background: #535353a3;
+    opacity: 0;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #384d4800;
+    opacity: 0;
+}
+
+.backsbutt{
+     position:absolute;
+        top:4%;
+      right:90%;
+      z-index:1;
+}
+
+.ui-menu {
+width: 200px;
+margin-bottom: 2em;
+
+}
+.ui-menu {
+list-style: none;
+padding: 2px;
+margin: 0;
+display: block;
+outline: none;
+
+}
+.ui-autocomplete {
+position: absolute;
+top: 0;
+left: 0;
+cursor: default;
+
+  
+}
+.ui-corner-all {
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.ui-widget-content {
+border: 1px solid #aaaaaa;
+background: #ffffff url("images/ui-bg_glass_75_ffffff_1x400.png") 50% 50% repeat-x;
+color: #404040;
+}
+.ui-widget {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 13px;
+}
+.ui-front {
+z-index: 100;
+}
+.ui-menu .ui-menu-item {
+margin: 0;
+padding: 0;
+width: 100%;
+list-style: none;
+border: 1px solid #fbfbfb;
+background: #2a2145 url("images/ui-bg_glass_75_ffffff_1x400.png") 50% 50% repeat-x;
+color: #ffffff;
+/*support: IE10, see #8844;*/
+}
+.ui-menu .ui-menu-item a.ui-corner-all {
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+.ui-menu .ui-menu-item a {
+text-decoration: none;
+display: block;
+padding: 2px .4em;
+line-height: 1.5;
+min-height: 0;
+support: IE7;
+font-weight: normal;
+}
+.ui-corner-all {
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.ui-autocomplete {
+    max-height: 200px; 
+    overflow-y: scroll; 
+    overflow-x: hidden;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background: #1c162e;
+}
+
+.wrapper .head-logo{
+    display: flex;
+    height: 3.5em;
+}
+
+.wrapper .head-logo .back-button{
+    padding: .4em;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.wrapper .head-logo .back-button img{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .head-logo .logo{
+    position: relative;
+    width: 3.5em;
+    height: 3.5em;
+    left: 17.5em;
+}
+
+.wrapper .head-logo .logo img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.wrapper .title{
+    position:absolute;
+    top:2%;
+    right:1%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 60px;
+    font-family: Montserrat;
+    letter-spacing: 5px;
+    background: #1c162e;
+    text-align:center;
+    width:96%;
+    height:10%;
+}
+
+.wrapper .title1{
+    position:absolute;
+    top:3.9%;
+    right:40%;
+    color: #23d4a5;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 60px;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    text-align:center;
+
+}
+
+.wrapper .form{
+    padding: 65px 15px;
+	padding-bottom: 80px;
+    height: 89%;
+    overflow-y: auto;
+}
+.wrapper .form .inbox{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+.wrapper .form .user-inbox{
+    justify-content: flex-end;
+    margin: 13px 0;
+}
+.wrapper .form .inbox .icon{
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    background: #2a2145;
+}
+.wrapper .form .inbox .msg-header{
+    max-width: 65%;
+    margin-left: 10px;
+}
+.form .inbox .msg-header p{
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #0977de, #024e96);
+    border-radius: 10px;
+    padding: 8px 30px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 14px;
+    word-break: break-word;
+    font-family: Montserrat;
+	justify-content: space-evenly;
+}
+.form .user-inbox .msg-header p{
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #2bc9e7, #17d2bd);
+    border-radius: 15px 15px 0 15px;
+}
+
+.wrapper .typing-field{
+    display: flex;
+	position: relative;
+	bottom: 3em;
+    height: 50px;
+    width: 99%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0 0 5px 5px;
+    background: #1c162e;
+}
+.wrapper .typing-field .input-data{
+    height: 40px;
+        width: 95%;
+    position: relative;
+}
+.wrapper .typing-field .input-data input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 0 80px 0 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    background: #2a2145;
+    transition: all 0.3s ease;
+}
+.typing-field .input-data input:focus{
+    border-color: rgb(255 255 255);
+}
+.input-data input::placeholder{
+    color: #535353;
+    transition: all 0.3s ease;
+}
+.input-data input:focus::placeholder{
+    color: #bfbfbf;
+}
+
+.buttorn
+{
+    background: #2a2145;
+}
+.wrapper .typing-field .input-data button{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    height: 30px;
+    width: 65px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    pointer-events: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #007bff00;
+    border: 1px solid #007bff00;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+.wrapper .typing-field .input-data input:valid ~ button{
+    opacity: 1;
+    pointer-events: auto;
+}
+.typing-field .input-data button:hover{
+    background: #ffffff00;
+}
+
+.modal{
+    background-color: rgb(0 0 0 / 97%);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    z-index: 100;
+  }
+  .modal-contents{
+    background-color: #fff;
+    padding: 2rem 4rem;
+    
+  }
+  .modal-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .modal-contents-btn1{
+    width: 45%;
+    height: 50%;
+  }
+  .modal-contents-btn1 button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px 30px 30px 30px;
+    color: #fff;
+    background: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s ease;
+  }
+  .modal-contents-btn1 button:hover{
+    background-color: #004288;
+  }
+  .modal-contents-btn2{
+    width: 45%;
+    height: 50%;
+  }
+  .modal-contents-btn2 button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px 30px 30px 30px;
+    color: #fff;
+    background: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s ease;
+  }
+  .modal-contents-btn2 button:hover{
+    background-color: #004288;
+  }
+
+/*----------*/
+ .mark {
+    background-color: #d7ffe7 !important
+  }
+
+  .mark .gsearch{
+    font-size: 20px
+  }
+
+  .unmark {
+    background-color: #e8e8e8 !important
+  }
+
+  .unmark .gsearch{
+    font-size: 10px
+  }
+  
+  .marktext
+  {
+   font-weight:bold;
+   background-color: antiquewhite;
+  }
+  
+  .suggestion1
+  {
+	position: absolute;
+	top: 72%;
+	right: 12%;
+	z-index:1;
+	
+  }
+  
+  .suggestion2
+  {
+	position: absolute;
+	top: 77%;
+	right: 12%;
+	z-index:1;
+  }
+  
+  .suggestion3
+  {
+	position: absolute;
+	top: 82%;
+	right: 12%;
+	z-index:1;
+  }
+  
+  .buttones {
+	height: 30px;
+	width: 300px;
+	background: #2a2145;
+    border: 1px solid #2a2145;
+    border-radius: 25px;
+	color: white;
+    order:2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip ellipsis;
+    font-size: 13px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+	
+  }
+
+	.buttones:focus {
+	  border: 1px solid #ffffffe3;
+	
+	}
+	
+	.buttones::-webkit-scrollbar {
+    display: none;	
+	
+}

@@ -1,0 +1,99 @@
+/*--------------------------------------------------
+                    COLORS
+----------------------------------------------------
+Russet #80471C - brown
+Asparagus #7EA16B - light green
+Dark Slate Grey #384D48 - dark green
+Pale Cerulean #8FBFE0 - light blue
+Bdazzled Blue #3B5C7D - dark blue
+Cultured #EDF2F4 - dirty white ish
+*/
+
+
+/*--------------------------------------------------
+                 SECTION CONTAINERS
+--------------------------------------------------*/
+.order-details, .address-details{
+    margin-left: 5%;
+}
+
+/*--------------------------------------------------
+            SECTION HEADERS AND LABELS
+--------------------------------------------------*/
+.h5-header{
+    color: #80471C;;
+}
+
+.header-title{
+    color: #80471C;
+}
+
+.label{
+    width: 90%;
+}
+
+.seeds-header, .address-header {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+/*--------------------------------------------------
+                 INPUT BOX
+--------------------------------------------------*/
+.house-street, .city-province, .seed-details, .farmer-details{
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.input-field{
+        width: 90%;
+        border-radius: 5px;
+}
+
+.input-field-dup{
+    width: 85%;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+/*--------------------------------------------------
+                  DROPDOWN
+--------------------------------------------------*/
+.seeds, .farmers{
+    display: block;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.seeds-dup{
+    display: block;
+    border-radius: 5px;
+    width: 85%;
+    margin-top: 0;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+/*--------------------------------------------------
+                    ICONS
+--------------------------------------------------*/
+.fa{
+    margin-left: 5%;
+    color: #80471C;
+}
+
+/*--------------------------------------------------
+                    BUTTONS
+--------------------------------------------------*/
+.add-seed{
+   /* margin-bottom: 5%; */
+   margin-top: 5%;
+}
+
+.submit-seed{
+    float: right;
+    margin-top: 5%;
+}

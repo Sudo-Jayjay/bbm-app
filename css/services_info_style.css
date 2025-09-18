@@ -1,0 +1,123 @@
+/*--------------------------------------------------
+					  COLORS
+--------------------------------------------------
+Russet #80471C - brown
+Asparagus #7EA16B - light green
+Dark Slate Grey #384D48 - dark green
+Pale Cerulean #8FBFE0 - light blue
+Bdazzled Blue #3B5C7D - dark blue
+Cultured #EDF2F4 - dirty white ish
+*/
+
+/*--------------------------------------------------
+					INFO BOARD
+--------------------------------------------------*/
+
+.info-board{
+	/*background-color: lightpink;*/
+	position: relative;
+}
+
+.images{
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+.slide{
+	position: absolute;
+	inset: 0;
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slide[data-active]{
+	opacity: 1;
+}
+
+.fa{
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	color: white;
+}
+
+.left-arrow{
+	left: 1rem;
+}
+
+.right-arrow{
+	right: 1rem;
+}
+
+
+/*--------------------------------------------------
+					DA Services
+--------------------------------------------------*/
+
+/*.row-icons{
+	width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-bottom: -15px;
+    margin-top: 0px;
+}*/
+
+.icon-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: hidden
+}
+
+.icon-desc{
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    margin: auto;
+    align-content: center;
+    max-width: 30%;
+    flex: 100%;
+    height: auto;
+    padding: auto;
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+    font-style: bold;
+    text-align: center;
+}
+
+.title{
+	padding: 0;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	font-size: 20px; 
+    background-color:  #80471C; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+.fas{
+	color:  #80471C;
+	border-color: black;
+}
+
+.nav-icons{
+	color: #EDF2F4; 
+}
+
+.icon{
+	font-size: 35px;
+}
+
